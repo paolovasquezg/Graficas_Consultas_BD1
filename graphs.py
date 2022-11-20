@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 x = []
 y = []
-with open('C1_indice.txt') as archivo:
+with open('C1_indice.txt') as archivo: #Cambiar el nombre del archivo correspondiente
     for linea in archivo:
         punto = [int(i) for i in linea.split(',')]
         x.append(punto[0])
@@ -14,7 +14,7 @@ plt.legend(loc="best" )
 
 x = []
 y = []
-with open('sin_indice.txt') as archivo:
+with open('sin_indice.txt') as archivo:  # Cambiar el nombre del archivo correspondiente
     for linea in archivo:
         punto = [int(i) for i in linea.split(',')]
         x.append(punto[0])
@@ -44,6 +44,7 @@ plt.legend(loc="best" )
 # plt.show()
 
 
+
 plt.xscale("log")
 plt.yscale("log")
 # plt.ylim(0, 123000)
@@ -52,3 +53,5 @@ plt.xlabel("Cantidad de datos")
 plt.title("Consulta 1: Sin indice vs indice")
 plt.savefig("Consulta1.jpg")
 plt.show()
+
+#Cambiar los respectivos nombre de acuerdo a la conveniencia
