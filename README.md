@@ -1,4 +1,4 @@
-# Graficas: Consultas Pokemon Showdown
+# Graficas: Consultas Pokémon Showdown
 
 <p> Tener cuenta lo siguiente:
 <li> Archivo ejecutable: graphs.py
